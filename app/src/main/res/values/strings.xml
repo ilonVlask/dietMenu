@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">dietMenu</string>
+    <string name="welcomeMessage">Приятного аппетита!</string>
+    <string name="logo">Логотип</string>
+    <string name="name_salon">Рецепты:</string>
+    <string name="s_recipe1">Рецепт 1</string>
+    <string name="s_recipe2">Рецепт 2</string>
+    <string name="address">Адрес</string>
+    <string name="title_activity_recipe">RecipeActivity</string>
 </resources>

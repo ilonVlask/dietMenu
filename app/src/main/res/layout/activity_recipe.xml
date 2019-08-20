@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="1dp"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:paddingTop="1dp"
+            tools:context="com.example.dietMenu.MainActivity">
+    <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:contentDescription="@string/logo"
+                android:src="@mipmap/logo"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorBackground"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:layout_gravity="fill_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/name_salon"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorNameSalon" />
+        <ImageView
+                android:layout_width="70dp"
+                android:layout_height="100dp"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:contentDescription="@string/s_recipe1"/>
+                <!--android:src="@drawable/hair" -->
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:layout_row="1"
+                android:text="@string/s_recipe1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorNameSalon" />
+        <ImageView
+                android:id="@+id/im_nail"
+                android:layout_width="70dp"
+                android:layout_height="100dp"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:contentDescription="@string/s_recipe2"/>
+                <!--android:src="@drawable/nail" />-->
+        <TextView
+                android:id="@+id/tv_nail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:layout_row="2"
+                android:text="@string/s_recipe2"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <ImageView
+                android:layout_width="70dp"
+                android:layout_height="100dp"
+                android:layout_column="0"
+                android:layout_row="3"
+                android:contentDescription="@string/address"/>
+                <!--android:src="@drawable/address" />-->
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:text="@string/address"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorNameSalon"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+    </GridLayout>
+</ScrollView>
