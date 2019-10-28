@@ -5,4 +5,6 @@
     <color name="colorAccent">#D81B60</color>
     <color name="colorNameSalon">#5b0404</color>
     <color name="colorBackground">#535b0404</color>
+    <color name="black">#CD000000</color>
+    <color name="white">#FFFFFF</color>
 </resources>

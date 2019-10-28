@@ -7,4 +7,6 @@
     <string name="s_recipe2">Рецепт 2</string>
     <string name="address">Адрес</string>
     <string name="title_activity_recipe">RecipeActivity</string>
+    <string name="recipes">Рецепты</string>
+    <string name="background_image">background image</string>
 </resources>
